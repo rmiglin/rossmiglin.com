@@ -1,15 +1,14 @@
 body {
   text-align: center;
-  background: url("../images/background.jpg");
+  background: url("http://rossmiglin.com/images/background.jpg");
   background-size: cover;
   background-position: center;
   color: white;
   font-family: arial;
-  background-color: rgb(185, 179, 175);
 }
 h1 {
   color: rgb(255, 255, 255);
-  font-size: 22px;
+  font-size: 44px;
 }
 p {
   color: rgb(255, 255, 255);
