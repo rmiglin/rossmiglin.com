@@ -1,13 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
+			<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 			<meta charset="utf-8"/>
-			<title>About</title>	
+			<title>About</title>
 	</head>
 	<body>
 			<h1>About</h1>
-			<p>This section tells a little more about me</p>
+			<h2>This section tells a little more about me</h2>
+			<p>I'm as aspiring computer scientist wanting to work on projects that pique my curiosity and build my confidence and understanding of programming</p>
+			<button>Like</button>
 			<a href="https://www.linkedin.com/in/ross-miglin/" target="_blank">For more information about me</a>
 			<p><a href="../index.html">Back</a></p>
+		<script>
+			$("button").on("click", function(){
+			alert("Hi this is a pop-up");
+		});
+		</script>
 	</body>
 </html>
