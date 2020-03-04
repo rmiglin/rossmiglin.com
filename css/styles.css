@@ -1,5 +1,17 @@
 body {
+  text-align: center;
+  background: url("background.jpg");
+  background-size: cover;
+  background-position: center;
+  color: white;
   font-family: arial;
-  background-color: rgb(185, 179, 175);}
-  h1 {
-    color: rgb(255, 255, 255);}
+  background-color: rgb(185, 179, 175);
+}
+h1 {
+  color: rgb(255, 255, 255);
+  font-size: 22px;
+}
+p {
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+}
