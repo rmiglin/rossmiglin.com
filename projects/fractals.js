@@ -5,7 +5,7 @@ function drawFractal(){
   document.body.appendChild(myCanvas);
   var ctx = myCanvas.getContext("2d");
 
-  var magnificationFactor = 3000;
+  var magnificationFactor = 2900;
   var panX = -0.15;
   var panY = 0.5;
   for(var x = 0; x < myCanvas.width; x++) {
@@ -28,7 +28,7 @@ function checkIfBelongsToMandelbrotSet(x, y){
   var realComponentOfResult = x;
   var imaginaryComponentOfResult = y;
   var maxIterations = 100;
-  for(var i = 0; i < 10; i++){
+  for(var i = 0; i < 100; i++){
     var tempRealComponent = realComponentOfResult * realComponentOfResult
                             - imaginaryComponentOfResult * imaginaryComponentOfResult
                             + x;
