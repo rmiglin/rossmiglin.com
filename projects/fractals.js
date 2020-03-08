@@ -16,7 +16,7 @@ function drawFractal(){
         ctx.fillStyle = '#000';
         ctx.fillRect(x,y,1,1);
       } else {
-        ctx.fillStyle = 'hsl(0, 100%, ' + belongsToSet + '%)';
+        ctx.fillStyle = 'hsl(120, 100%, ' + belongsToSet + '%)';
         ctx.fillRect(x,y,1,1);
       }
     }
